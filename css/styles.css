@@ -84,10 +84,8 @@ button:hover {
 }
 
 .producto img {
-    max-width: 200px; /* Ancho máximo de la imagen */
-    max-height: 150px; /* Altura máxima de la imagen */
-    width: auto; /* Mantener proporciones */
-    height: auto; /* Mantener proporciones */
+    max-width: 60px; /* Ancho máximo de la imagen */
+    max-height: 60px; /* Altura máxima de la imagen */
     border-radius: 5px; /* Bordes redondeados para la imagen */
     display: block; /* Asegurarse de que la imagen se comporte como un bloque */
     margin: 0 auto; /* Centrar la imagen */

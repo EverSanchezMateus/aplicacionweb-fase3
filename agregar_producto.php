@@ -22,8 +22,12 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in'] || $_SESSION['rol'
         <nav>
             <ul>
                 <li><a href="index.php">Inicio</a></li>
+                <li><a href="registro.php">Registrar</a></li>
+                <li><a href="agregar_producto.php">Registrar producto</a></li>
+                <li><a href="login.php">Iniciar Sesión</a></li>
                 <li><a href="productos.php">Productos</a></li>
-                <li><a href="logout.php">Cerrar Sesión</a></li>
+                <li><a href="carrito.php">Carrito</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
             </ul>
         </nav>
     </header>

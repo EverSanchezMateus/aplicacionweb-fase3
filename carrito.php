@@ -1,6 +1,7 @@
 <?php 
 session_start(); // Iniciar la sesión
 include('includes/db.php'); 
+include('includes/header.php');
 
 // Comprobar si el usuario está logeado
 if (!isset($_SESSION['usuario_id'])) {
@@ -31,13 +32,7 @@ $result = $conn->query($sql);
 <body>
     <header>
         <h1>Carrito de Compras</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="productos.php">Productos</a></li>
-                <li><a href="logout.php">Cerrar Sesión</a></li>
-            </ul>
-        </nav>
+        
     </header>
     <main>
         <h2>Carrito de Compras</h2>

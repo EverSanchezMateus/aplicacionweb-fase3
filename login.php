@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="css/styles.css">
+    <?php include('includes/header.php'); ?>
 </head>
 <body>
     <header>

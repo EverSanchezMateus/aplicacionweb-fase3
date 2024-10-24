@@ -1,5 +1,6 @@
 <?php
 include('includes/db.php');
+include('includes/header.php');
 $sql = "SELECT * FROM productos";
 $result = $conn->query($sql);
 
