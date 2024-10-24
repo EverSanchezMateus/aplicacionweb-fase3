@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+/* Estilo de los inputs y botones */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #218838; /* Color del botón al pasar el mouse */
+}
+
+/* Estilo de productos */
+.producto {
+    border: 1px solid #ddd;
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido */
+}
+
+
+.producto:hover {
+    transform: scale(1.02); /* Aumentar ligeramente el tamaño al pasar el mouse */
+}
+
+.producto img {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    max-height: 150px; /* Altura máxima de la imagen */
+    width: auto; /* Mantener proporciones */
+    height: auto; /* Mantener proporciones */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+    display: block; /* Asegurarse de que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centrar la imagen */
+}
+
+
+.producto h3 {
+    font-size: 1.5em; /* Tamaño del título del producto */
+    margin: 0 0 10px; /* Margen inferior */
+    color: #333; /* Color del texto */
+}
+
+.producto p {
+    margin: 5px 0; /* Margen para párrafos */
+    color: #555; /* Color del texto para precio y stock */
+}
+
+/* Tabla en el carrito */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Estilo de enlaces */
+td a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para mensajes de error */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
